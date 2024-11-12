@@ -14,7 +14,11 @@ public:
     ~binaryExpressionTree() { destroyTree(); }
 
     // Required no-op implementations for pure virtual functions
-    void search(const std::string&) override {}
+    bool search(const std::string&) const override
+    {
+        return 0;
+
+    }
     void insert(const std::string&) override {}
     void deleteNode(const std::string&) override {}
 

@@ -4,18 +4,17 @@
 #include <sstream>
 
 // Constructor
-binaryExpressionTree::binaryExpressionTree() = default;
+//binaryExpressionTree::binaryExpressionTree() = default;
 
 // Destructor
-binaryExpressionTree::~binaryExpressionTree() {
-    destroyTree();
-}
+//binaryExpressionTree::~binaryExpressionTree() {
+   // destroyTree();
+//}
 
 // No-op implementations for the pure virtual functions
-void binaryExpressionTree::search(const std::string&) {}
-void binaryExpressionTree::insert(const std::string&) {}
-void binaryExpressionTree::deleteNode(const std::string&) {}
-
+//bool binaryExpressionTree::search(const std::string&) const {}
+//void binaryExpressionTree::insert(const std::string&) {}
+//
 // Build expression tree from a postfix expression
 void binaryExpressionTree::buildExpressionTree(const std::string& postfixExpression) {
     destroyTree(); // Clear any existing tree
